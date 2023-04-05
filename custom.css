@@ -1,11 +1,10 @@
-.carousel .carousel-item {
-  height: 500px;
+#banner {
 }
 
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
+.nav-link-active {
+    color: red;
+}
+
+.nav-link:hover {
+    color: red;
 }
