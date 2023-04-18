@@ -19,10 +19,10 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 <body style="background-color: rgb(36, 36, 36);">
-<div class="container-lg" style="background-color: white; font-size: large;">
-    <div class="row d-flex sticky-top">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid">
+<div class="container-fluid" style="background-color: white; font-size: large;">
+    <div class="row d-flex sticky-top" style="height: 100px; background-color: black;">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid" id="navbar">
           <a class="navbar-brand" href="#">Moon Rabbit</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
                 <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Cute & Pagan</a>
+                <a class="nav-link" href="cute-and-pagan.html">Cute & Pagan</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://kumabear.net/" targe="_blank">Blog</a>
@@ -52,17 +52,23 @@
 
     <div class="row">
       <div class="col p-0">
-        <img src="/img/Zrzut ekranu 2023-03-19 185906.png" alt="Slavic Tribe Builder" id="banner">
+        <img src="/img/Zrzut ekranu 2023-04-02 175204.png" alt="Cute&Pagan" id="banner">
       </div>
     </div>
 
     <div class="row">
-        <div class="col-md-12" style="height: 1200px;">
+        <div class="col-md-2" style="height: 1200px;">
             Column 1
         </div>
+        <div class="col-md-8" style="height: 1200px;">
+          Column 2
+      </div>
+      <div class="col-md-2" style="height: 1200px;">
+        Column 3
+    </div>
     </div>
 
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex justify-content-center bg-dark" id="footer">
         ©Moon Rabbit <script>document.write(new Date().getFullYear())</script> | All rights reserved.
     </div>
 <script src="./js/bootstrap.bundle.js"></script>
